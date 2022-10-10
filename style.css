@@ -2,37 +2,18 @@ body {
     background: black;
 }
 
-.container {
+.container-header {
     width: 1000px;
-    height: 1295px;
     margin: auto;
     border: 2px solid red;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.container div {
+.container-header div {
     border: 2px solid pink;
     flex: 1 1 auto;
 }
-
-.first_box {
-    background-color: #1F2937;
-}
-
-.second_box {
+body {
     background-color: white;
 }
-
-.third_box {
-    background-color: #E5E7EB;
-}
-
-.fourth_box {
-    background-color: white;
-}
-
-.fifth_box {
-    background-color: #1F2937;
-}
-/*this is to check if my github desktop*/
