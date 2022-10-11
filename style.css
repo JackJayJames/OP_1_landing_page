@@ -12,8 +12,13 @@ body {
 
 .container-header div {
     border: 2px solid pink;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
 }
+
+.container-header:nth-child(5) {
+    background-color: black;
+}
+
 body {
     background-color: white;
 }
