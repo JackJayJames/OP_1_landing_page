@@ -1,5 +1,17 @@
-body {
-    background: black;
+.header {
+    width: 1000px;
+    margin: auto;
+    border: 2px solid red;
+    display: flex;
+}
+
+.header div {
+    border: 2px solid red;
+    flex: 0 1 auto;
+}
+
+.header-link-one {
+    margin-left: auto;
 }
 
 .container-header {
@@ -12,11 +24,11 @@ body {
 
 .container-header div {
     border: 2px solid pink;
-    flex: 0 1 auto;
+    flex: 0;
 }
 
-.container-header:nth-child(5) {
-    background-color: black;
+.img-place-holder {
+    margin-left: auto;
 }
 
 body {
