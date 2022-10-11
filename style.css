@@ -4,39 +4,57 @@
     margin-left: 129px;
     background: #1F2937;
     display: flex;
+    gap: 10px
 }
 
 .header div {
     border: 2px solid red;
     color: #F9FAF8;
-    font-size: 18px;
     font-style: "extra-bold";
     flex: 0 1 auto;
 }
 .Header-Logo {
-    margin-left: 15%;
+    margin-left: 12%;
+    font-size: 20px;
 }
 .header-link-one {
-    margin-left: 30%;
+    margin-left: auto;
+    font-size: 13px;
+}
+.header-link-two {
+    font-size: 13px;
+}
+.header-link-three {
+    font-size: 13px;
+    margin-right: 12%;
 }
 
 .container-header {
     width: 1000px;
-    margin: auto;
     border: 2px solid red;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background: #1F2937;
+    margin-left: 129px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .container-header div {
     border: 2px solid pink;
-    flex: 0;
+    color: white;
+    width: 35%;
 }
-
+.Header-body {
+    margin-left: 12%;
+}
+.Header-body strong {
+    font-size: 48px;
+}
 .img-place-holder {
     margin-left: auto;
+    margin-right: 12%;
 }
 
 body {
-    background-color: white;
+    background-color: black;
 }
