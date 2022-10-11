@@ -1,17 +1,23 @@
 .header {
     width: 1000px;
-    margin: auto;
     border: 2px solid red;
+    margin-left: 129px;
+    background: #1F2937;
     display: flex;
 }
 
 .header div {
     border: 2px solid red;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-style: "extra-bold";
     flex: 0 1 auto;
 }
-
+.Header-Logo {
+    margin-left: 15%;
+}
 .header-link-one {
-    margin-left: auto;
+    margin-left: 30%;
 }
 
 .container-header {
