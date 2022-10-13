@@ -32,11 +32,12 @@
 .container-header {
     width: 1000px;
     border: 2px solid red;
-    padding-top: 7%;
-    padding-bottom: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background: #1F2937;
     margin-left: 129px;
     display: flex;
+    gap: 25px;
 }
 
 .container-header div {
@@ -64,6 +65,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 3px;
 }
 .middle-one div {
     flex: 1 0 100%;
@@ -73,16 +75,56 @@
 .middle-one li {
     list-style: none;
     border: 1px solid red;
+    text-align: center;
     flex: 0 1 15%;
-    margin-top: 5%;
-    margin-bottom: 8%;
+    padding-bottom: 6%;
 }
 .middle-one img {
     justify-content: center;
-    width: 95%;
-    height: 70%;
-    border: 2px solid black;
+    width: 96%;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
 }
+.middle-two {
+    background: #E5E7EB;
+    width: 1000px;
+    margin-left: 129px;
+    display: flex;
+    flex-direction: column;
+}
+.middle-two div {
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: flex-end;
+}
+#quote {
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 26px;
+    font-weight: light;
+    border: 1px solid red;
+}
+#author {
+    border: 1px solid red;
+    margin-bottom: 70px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.subsciption-box {
+    background-color: white;
+    border: 1px solid red;
+    width:1000px;
+    margin-left: 129px;
+    display: flex;
+}
+#subscription {
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid red;
+}
+
 body {
     background-color: black;
 }
