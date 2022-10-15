@@ -1,21 +1,23 @@
 .header {
     width: 1000px;
-    border: 2px solid red;
+    /*border: 2px solid red*/;
     margin-left: 129px;
+    padding-top: 2%;
     background: #1F2937;
     display: flex;
     gap: 10px
 }
 
 .header div {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     color: #F9FAF8;
     font-style: "extra-bold";
     flex: 0 1 auto;
 }
 .Header-Logo {
     margin-left: 12%;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bolder;
 }
 .header-link-one {
     margin-left: auto;
@@ -31,7 +33,7 @@
 
 .container-header {
     width: 1000px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     padding-top: 5%;
     padding-bottom: 5%;
     background: #1F2937;
@@ -41,15 +43,27 @@
 }
 
 .container-header div {
-    border: 2px solid pink;
+    /*border: 2px solid pink;*/
     color: white;
-    width: 35%;
+    width: 40%;
 }
 .Header-body {
     margin-left: 12%;
 }
 .Header-body strong {
     font-size: 48px;
+    font-weight: 600;
+}
+.Header-body figcaption {
+    font-size:16px;
+}
+#button {
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+    background: #3882F6;
+    color: white;
+    width:100px;
+    height: 25px;
 }
 .img-place-holder {
     margin-left: auto;
@@ -59,24 +73,26 @@
 
 .middle-one {
     background: white;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     width: 1000px;
     margin-left: 129px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 3px;
+    gap: 10px;
 }
 .middle-one div {
     flex: 1 0 100%;
-    border: 1px solid red;
+    margin-top: 2%;
+    /*border: 1px solid red;*/
     text-align: center;
+    font-weight: 600;
 }
 .middle-one li {
     list-style: none;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     text-align: center;
-    flex: 0 1 15%;
+    flex: 0 1 13%;
     padding-bottom: 6%;
 }
 .middle-one img {
@@ -100,12 +116,12 @@
 #quote {
     margin-top: 50px;
     font-style: italic;
-    font-size: 26px;
-    font-weight: light;
-    border: 1px solid red;
+    font-size: 25px;
+    font-weight: 100;
+    /*border: 1px solid red;*/
 }
 #author {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin-bottom: 70px;
     font-size: 18px;
     font-weight: bold;
@@ -114,17 +130,74 @@
 
 .subsciption-box {
     background-color: white;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width:1000px;
     margin-left: 129px;
+    justify-content: center;
     display: flex;
 }
 #subscription {
-    margin-left: 15%;
-    margin-right: 15%;
-    border: 1px solid red;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 70%;
+    border: 1px solid #3882F6;
+    background: #3882F6;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+}
+#subscription > * {
+    /*border: 1px solid red;*/
+    flex: 1 1 auto;
+}
+#sub-text {
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+}
+#sub-text > * {
+    /*border: 1px solid red;*/
+    margin-left: 25%;
+}
+#sub-text strong {
+    margin-top: 7%;
+    font-size: 20px;
+}
+#sub-text figcaption {
+    font-size: 12px;
+    margin-bottom: 7%;
+}
+#sub-button {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sign-button {
+    margin: 5%;
+    border: 2px solid white;
+    background: #3882F6;
+    border-radius: 5px;
+    color: white;
+    padding: 2%;
+    width: 35%;
+}
+#copyright-container {
+    background-color: #1F2937;
+    color: white;
+    /*border: 1px solid red;*/
+    width:1000px;
+    margin-left: 129px;
+    justify-content: center;
+    display: flex;
+}
+#copyright-container > * {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 15px;
 }
 
 body {
     background-color: black;
+    font-family: sans-serif;
 }
